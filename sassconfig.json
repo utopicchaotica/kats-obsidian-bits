@@ -1,0 +1,10 @@
+{
+    outDir?: "./",
+    removeComments?: false,
+    sourceMaps?: yes,
+    indentType?: "tab",
+    indentWidth?: 4,
+    linefeed?: "crlf",
+    omitSourceMapUrl?: true,
+    outputStyle?: "expanded"
+}
