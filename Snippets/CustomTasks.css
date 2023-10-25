@@ -1,0 +1,6 @@
+/* Half Diagonal In-Progress */
+input[data-task="/"]:checked,
+li[data-task="/"] > input[type=checkbox]:checked,
+li[data-task="/"] > p > input[type=checkbox]:checked {
+  background: linear-gradient(135deg, transparent 50%, var(--checkbox-in-progress) 50%);
+}

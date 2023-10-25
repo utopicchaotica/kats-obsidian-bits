@@ -354,7 +354,7 @@ body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[
 }
 
 /* Replaced body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkboxwith "body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox" */
-body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="!"] input[type=checkbox]:checked:before, body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="!"][type=checkbox]:checked:before {
+/* body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="!"] input[type=checkbox]:checked:before, body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="!"][type=checkbox]:checked:before {
   content: "IMP";
 }
 
@@ -416,7 +416,7 @@ body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[
 
 body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task='"'] input[type=checkbox]:checked:before, body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task='"'][type=checkbox]:checked:before {
   content: "QUOT";
-}
+} */
 body:not(.alt-chkbx-off) .markdown-source-view.mod-cm6 .task-list-item .task-list-item-checkbox {
   margin-right: calc(var(--checkbox-size) * 2.7);
 }
