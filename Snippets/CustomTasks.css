@@ -1,5 +1,31 @@
+/*** FROM MINIMAL THEME ***/
+/* [f] Fire */
+/* input[data-task="f"]:checked,
+li[data-task="f"]>input:checked,
+li[data-task="f"]>p>input:checked {
+    --checkbox-color: var(--color-red);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z' clip-rule='evenodd' /%3E%3C/svg%3E");
+} */
+
+/* [u] Up */
+input[data-task="u"]:checked,
+li[data-task="u"]>input:checked,
+li[data-task="u"]>p>input:checked {
+    --checkbox-color: var(--color-green);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-4.293 4.293a1 1 0 01-1.414-1.414l5-5a1 1 0 011.414 0L11 10.586 14.586 7H12z' clip-rule='evenodd' /%3E%3C/svg%3E");
+}
+
+/* [d] Down */
+input[data-task="d"]:checked,
+li[data-task="d"]>input:checked,
+li[data-task="d"]>p>input:checked {
+    --checkbox-color: var(--color-red);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M12 13a1 1 0 100 2h5a1 1 0 001-1V9a1 1 0 10-2 0v2.586l-4.293-4.293a1 1 0 00-1.414 0L8 9.586 3.707 5.293a1 1 0 00-1.414 1.414l5 5a1 1 0 001.414 0L11 9.414 14.586 13H12z' clip-rule='evenodd' /%3E%3C/svg%3E");
+}
+
+/*** CUSTOM TASK STYLES ***/
 /** 
-  * Half Diagonal In-Progress
+  * [/] Half Diagonal In-Progress
   */
 div[data-task="/"],
 li.task-list-item[data-task="/"],
@@ -50,7 +76,7 @@ li[data-task="/"]>p>input[type=checkbox]:checked:after {
 }
 
 /**
-  * For tasks send off for a second pair of eyes (eye)
+  * [o] For tasks send off for a second pair of eyes (eye)
   */
 div[data-task="o"],
 li.task-list-item[data-task="o"],
@@ -88,3 +114,11 @@ li[data-task="o"]>p>input[type=checkbox]:checked:after {
     left: 0;
     /* content: " "; */
 }
+
+/* [k] Key */
+/* input[data-task="k"]:checked,
+li[data-task="k"]>input:checked,
+li[data-task="k"]>p>input:checked {
+    color: var(--color-yellow);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https: //fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d='M512 176C512 273.2 433.2 352 336 352c-11.2 0-22.2-1.1-32.8-3.1l-24 27A24 24 0 0 1 261.2 384H224v40c0 13.3-10.7 24-24 24h-40v40c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24v-78.1c0-6.4 2.5-12.5 7-17l161.8-161.8C163.1 213.8 160 195.3 160 176 160 78.8 238.8 0 336 0 433.5 0 512 78.5 512 176zM336 128c0 26.5 21.5 48 48 48s48-21.5 48-48-21.5-48-48-48-48 21.5-48 48z'/%3E%3C/svg%3E");
+} */
