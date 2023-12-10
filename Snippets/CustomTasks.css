@@ -90,7 +90,7 @@ div[data-task="o"]>label.task-list-label,
 li.task-list-item[data-task="o"],
 li.task-list-item[data-task="o"]>p,
 .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="o"] {
-    --checkbox-color-hover: var(--pink) !important;
+    --checkbox-color-hover: none !important;
     /* --checkbox-in-progress: var(--pink); */
 
     --checkbox-color: var(--checkbox-in-progress);
