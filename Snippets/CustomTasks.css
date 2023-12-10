@@ -122,3 +122,13 @@ li[data-task="k"]>p>input:checked {
     color: var(--color-yellow);
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https: //fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d='M512 176C512 273.2 433.2 352 336 352c-11.2 0-22.2-1.1-32.8-3.1l-24 27A24 24 0 0 1 261.2 384H224v40c0 13.3-10.7 24-24 24h-40v40c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24v-78.1c0-6.4 2.5-12.5 7-17l161.8-161.8C163.1 213.8 160 195.3 160 176 160 78.8 238.8 0 336 0 433.5 0 512 78.5 512 176zM336 128c0 26.5 21.5 48 48 48s48-21.5 48-48-21.5-48-48-48-48 21.5-48 48z'/%3E%3C/svg%3E");
 } */
+
+
+/* [!] Alert Triangle */
+input[data-task="!"]:checked,
+li[data-task="!"]>input:checked,
+li[data-task="!"]>p>input:checked {
+    --checkbox-color: var(--color-yellow);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d='M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z'/%3E%3C/svg%3E");
+    /* -webkit-mask-size: contain; */
+}
